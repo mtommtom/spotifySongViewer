@@ -1,0 +1,50 @@
+html {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#body {
+    -webkit-transition: background 1.3s ease-in-out;
+    -moz-transition: background 1.3s ease-in-out;
+    transition: background 5s linear;
+}
+
+.container {
+    padding: 20vh 0;
+}
+
+.image img {
+    height: 100%;
+    border-radius: 5%;
+
+    /* -webkit-box-shadow: 1px 42px 67px 3px rgba(0,0,0,0.42);
+    -moz-box-shadow: 1px 42px 67px 3px rgba(0,0,0,0.42); */
+    box-shadow: 0vh 4vh 8vh .1vh rgba(0,0,0,0.42);
+}
+.image {
+    height: 60vh;
+    width: 60vh;
+    color: white;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.song_name {
+    font-size: 8vh;
+    font-weight: bolder;
+    white-space: nowrap;
+}
+.artist_name {
+    font-size: 4vh;
+    position: absolute;
+    float: right;
+    text-align: left;
+    display: none;
+}

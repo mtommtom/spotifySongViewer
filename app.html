@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Spotify Song Viewer</title>
+</head>
+<body style="background-image: linear-gradient(lightyellow, rgba(0, 0, 0, .60));" id="body">
+    <div class="container">
+        <!-- hold all api given content (image, song_name, artist_name) -->
+        <div class="content">
+            <div class="image center" style="color: lightyellow" id="i_c">
+                <img class="center" src="images/SONG_NAME.webp" id="i">
+                <div class="song_name" id="s_n">
+                    tinkerbell is overrated
+                </div>
+            </div>
+            <div class="artist_name" id="a_n">
+                Beabadoobie
+            </div>
+        </div>
+    </div>
+
+    <script src="js/auth.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="js/spotify.js"></script>
+</body>
+</html>

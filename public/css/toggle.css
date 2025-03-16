@@ -1,0 +1,11 @@
+#currently_playing {
+    display: none;
+}
+
+#profile {
+    display: block;
+}
+
+#body {
+    background: linear-gradient(white, rgba(0, 0, 0, 1.0));
+}
