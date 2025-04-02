@@ -9,9 +9,6 @@
   },
   "author": "Makeo Tom",
   "license": "ISC",
-  "devDependencies": {
-    "electron": "^34.2.0"
-  },
   "dependencies": {
     "body-parser": "^1.20.3",
     "dotenv": "^16.4.7",

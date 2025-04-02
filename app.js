@@ -69,5 +69,5 @@ app.get('/callback', (req, res) => {
 
 // run server
 app.listen(PORT, () => {
-	console.log(`running on port ${PORT}`);
+  console.log(`running on port ${PORT}`);
 });

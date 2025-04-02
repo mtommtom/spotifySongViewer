@@ -55,7 +55,10 @@ function load(data) {
         const song_name = $('#s_n');
         const image = $('#i');
 
-        // if the song isn't current displayed song
+        /*
+        if the song isn't current displayed song
+        in other words: on update content
+        */
         if (s_image !== data.item.album.images[0].url || s_name !== data.item.name) {
             s_name = data.item.name;
             s_image = data.item.album.images[0].url;
@@ -64,6 +67,7 @@ function load(data) {
             image.attr('src', s_image);
 
             colorBackground(s_image);
+            set_text_scroll();
         }
     }
 }

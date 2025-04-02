@@ -7,16 +7,9 @@
     <link rel="stylesheet" href="css/profile.css">
     <link rel="stylesheet" href="css/currently_playing.css">
     <link rel="stylesheet" href="css/toggle.css">
+    <link rel="stylesheet" href="css/text_scroll.css">
     <title>Spotify Song Viewer</title>
 
-    <script>
-        const refresh_token = '<%= refresh_token %>';
-        const access_token = '<%= access_token%>';
-    </script>
-    <script src="https://unpkg.com/fast-average-color/dist/index.browser.min.js"></script>
-    <script src="js/auth.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
-    <script src="js/spotify.js" crossorigin="anonymous"></script>
 </head>
 <body id="body">
     <div class="container" id="profile">
@@ -41,5 +34,14 @@
         <img src="" id="it" style="display:none">
     </div>
 
+    <script>
+        const refresh_token = '<%= refresh_token %>';
+        const access_token = '<%= access_token%>';
+    </script>
+    <script src="js/text_scroll.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/fast-average-color/dist/index.browser.min.js"></script>
+    <script src="js/auth.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="js/spotify.js" crossorigin="anonymous"></script>
 </body>
 </html>

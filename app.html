@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="public/css/currently_playing.css">
     <title>Spotify Song Viewer</title>
 </head>
 <body style="background-image: linear-gradient(lightyellow, rgba(0, 0, 0, .60));" id="body">
@@ -12,14 +12,15 @@
         <!-- hold all api given content (image, song_name, artist_name) -->
         <div class="content">
             <div class="image center" style="color: lightyellow" id="i_c">
-                <img class="center" src="images/SONG_NAME.webp" id="i">
-                <div class="song_name" id="s_n">
-                    tinkerbell is overrated
-                </div>
+                <!-- <img class="center" src="public/images/SONG_NAME.webp" id="i"> -->
+                <img class="center" src="https://upload.wikimedia.org/wikipedia/commons/2/27/Square_200x200.svg" id="i">
+                <marquee scrollamount="1" behavior="alternate" class="song_name" id="s_n">
+                    1234567890
+                </marquee>
             </div>
-            <div class="artist_name" id="a_n">
-                Beabadoobie
-            </div>
+            <marquee width='100%' behavior='alternate' class="artist_name" id="a_n">
+                artist name
+            </marquee>
         </div>
     </div>
 

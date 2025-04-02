@@ -1,0 +1,16 @@
+.scroll {
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+
+    -moz-animation: move_right 2s linear infinite;
+}
+
+/*
+Move left
+*/
+@-moz-keyframes move_right {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
