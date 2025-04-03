@@ -8,18 +8,15 @@ function set_text_scroll() {
     const bodyWidth = document.getElementById('body').clientWidth;
     const iWidth = document.getElementById('i').clientWidth;
     const divLength = (bodyWidth - iWidth) / 2 + iWidth;
-    console.log('divLength: ' + divLength);
     const textLength = s_n.scrollWidth;
 
     // if text box (#s_n) is large enough
     if(textLength > divLength) {
         console.log('scroll')
-        // find scroll amount
-        const dif = textLength - divLength;
         // apply scroll
-        document.getElementById('s_n').classList.add('scroll');
+        document.getElementById('s_n').classList.add('track');
     } else {
-        console.log('removescroll')
-        document.getElementById('s_n').classList.remove('scroll')
+        console.log('removescroll');
+        document.getElementById('s_n').classList.remove('track');
     }
 }
