@@ -19,16 +19,16 @@
         </div>
 	</div>
 
+    <!-- create weather location -->
     <div class="container" id="currently_playing">
         <!-- hold all api given content (image, song_name, artist_name) -->
         <div class="content">
             <div class="image center" style="color: white" id="i_c">
                 <img class="center" id="i">
-                <div class="song_name" id="s_n">
-                </div>
+                <!-- <div class="song_name" id="s_n"></div> -->
+                <div class="song_name" id="s_n"></div>
             </div>
-            <div class="artist_name" id="a_n">
-            </div>
+            <div class="artist_name" id="a_n"></div>
         </div>
 
         <img src="" id="it" style="display:none">
@@ -38,10 +38,10 @@
         const refresh_token = '<%= refresh_token %>';
         const access_token = '<%= access_token%>';
     </script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
     <script src="js/text_scroll.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/fast-average-color/dist/index.browser.min.js"></script>
     <script src="js/auth.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
     <script src="js/spotify.js" crossorigin="anonymous"></script>
 </body>
 </html>

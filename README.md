@@ -5,3 +5,8 @@ note:
 when using electron,
 make sure to do
 "electron . --no-sandbox"
+
+todo:
+design layout
+
+make into react app (have customizable layouts - make it based off a json file or something)
